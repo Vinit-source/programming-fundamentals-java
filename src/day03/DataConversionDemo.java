@@ -15,6 +15,14 @@ public class DataConversionDemo {
 
 		long number = Long.parseLong("9876543210");
 		System.out.println("number = " + number);
+
+		int i = 100;
+		long l = i; // No explicit casting required here
+		System.out.println("l = " + l);
+
+		double d = 100.04;
+		l = (long) d; // Explicit casting is required here
+		System.out.println("l = " + l);
 	}
 
 }

@@ -57,5 +57,6 @@ long l = i;  // No explicit casting required here
 double d = 100.04;
 long l = (long)d; // Explicit casting is required here
 ```
+In this type of conversion, information loss takes place.
 
-This brief overview introduces you to data types in Java and how you can manipulate them. Next, we'll look at Java's structure and syntax, which allows you to create complex programs.
+This brief overview introduces you to data types in Java and how you can manipulate them. 
