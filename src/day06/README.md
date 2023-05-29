@@ -24,6 +24,15 @@ String greeting = hello + world;  // "Hello, World!"
 
 **String Methods:**
 
+- **concat(`anotherString`):** Returns a concatenated string with the `anotherString`. Same output as previous code snippet. 
+
+```java
+String hello = "Hello, ";
+String world = "World!";
+String greeting = hello.concat(world);  // "Hello, World!"
+```
+
+Note that `concat` is a String method.
 Here are some commonly used String methods:
 
 -   **length():** Returns the length of the string.

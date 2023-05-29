@@ -23,11 +23,12 @@
 - **Student Example**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day05/Student.java)
 
 ## Day 6: String Utilities
-- **Notes**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day06/README.md)
-- **String Demo**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day06/StringDemo.java)
-- **String Concat**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day06/StringConcatDemo.java)
-- **String Trim**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day06/StringTrimDemo.java)
-- **String Compare**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day06/StringCompareDemo.java)
+- **Notes**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day06/README.md)
+- **String Demo**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day06/StringDemo.java)
+- **String Concat**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day06/StringConcatDemo.java)
+- **String Trim**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day06/StringTrimDemo.java)
+- **String Compare**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day06/StringCompareDemo.java)
+- **Practice**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day06/practice.md)
 
 ## Day 7: Conditional Statements
 - **Notes**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day07/README.md)

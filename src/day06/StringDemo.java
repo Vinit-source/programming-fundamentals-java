@@ -2,19 +2,18 @@ package day06;
 
 public class StringDemo {
 
-	public static void main(String[] args) {
-	
-        //input
-        String firstName = "Surya" ;
-        String lastName = "Umapathy";
-         
-        //business logic
-        String fullName = firstName + " " + lastName;     
-         
-        //output
-        System.out.println(fullName);
-		
-		
-	}
+        public static void main(String[] args) {
+
+                // input
+                String firstName = "John";
+                String lastName = "Doe";
+
+                // business logic
+                String fullName = firstName + " " + lastName;
+
+                // output
+                System.out.println(fullName);
+
+        }
 
 }
