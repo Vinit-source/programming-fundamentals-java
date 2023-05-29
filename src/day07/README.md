@@ -98,3 +98,7 @@ public class Main {
 ``` 
 
 In the `switch` statement, each value is called a case, and the variable being switched on is checked for each case.
+
+**Difference**: 
+`if-else-if-else`: The if-else-if-else ladder is used to make decisions based on multiple conditions in a sequential manner. **It executes a series of if statements one after another until a condition evaluates to true.** Once a true condition is found, the corresponding code block associated with that condition is executed, and the rest of the ladder is bypassed.
+`switch`: The switch statement is another decision-making construct that allows you to select one of many code blocks to be executed based on the value of a given expression. It provides a more concise and structured way to handle multiple conditions compared to the if-else-if-else ladder. **The expression in the switch statement is evaluated once, and the control jumps to the matching case label.** The execution continues until a break statement is encountered or the end of the switch block is reached. This construct is often used when you have a limited number of discrete values to compare against.
