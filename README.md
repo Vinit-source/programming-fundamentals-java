@@ -18,9 +18,9 @@
 - **Book Class**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day04/BookDemo.java)
 
 ## Day 5: Objects
-- **Notes**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day05/README.md)
-- **Book Class w/object**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day05/BookDemo.java)
-- **Example 2**: Link
+- **Notes**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day05/README.md)
+- **Book Class w/ object**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day05/BookDemo.java)
+- **Student Example**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day05/Student.java)
 
 ## Day 6: String Utilities
 - **Notes**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day06/README.md)
