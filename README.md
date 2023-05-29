@@ -40,17 +40,24 @@
 
 ## Day 8: Looping statements
 - **Notes**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day08/README.md)
-- **Looping Statement Demo**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day08/LoopingStatmentDemo.java)
-- **Looping Statement Demo 2**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day08/LoopingStatmentDemo2.java)
-- **Looping Statement Demo 3**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day08/LoopingStatmentDemo3.java)
-- **Practice**: [Link]()
+- **Looping Statement Demo**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day08/LoopingStatmentDemo.java)
+- **Looping Statement Demo 2**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day08/LoopingStatmentDemo2.java)
+- **Looping Statement Demo 3**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day08/LoopingStatmentDemo3.java)
+- **Practice**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day08/practice.md)
+- **HOTS**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day08/HOTS.md)
 
 ## Day 9: Arrays
-- **Notes**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day09/README.md)
-- **Array Demo**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day09/ArrayDemo.java)
-- **Array Demo 2**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day09/ArrayDemo2.java)
-- **Array Demo 3**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day09/ArrayDemo3.java)
-- **Array Demo 4**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day09/ArrayDemo4.java)
+- **Notes**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day09/README.md)
+- **Array Demo**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day09/ArrayDemo.java)
+- **Array Demo 2**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day09/ArrayDemo2.java)
+- **Array Demo 3**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day09/ArrayDemo3.java)
+- **Array Demo 4**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day09/ArrayDemo4.java)
+- **Array Max**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day09/ArrayMax.java)
+- **Array Count Even**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day09/ArrayCountEven.java)
+- **Array Sum**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day09/ArraySum.java)
+- **Array Contains**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day09/ArrayContains.java)
+- practice: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day09/practice.md)
+- HOTS: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day09/HOTS.md)
 
 
 ## Day 10, 11: Exception handling
