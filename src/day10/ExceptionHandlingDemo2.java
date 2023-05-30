@@ -8,7 +8,7 @@ public class ExceptionHandlingDemo2 {
 	public static void main(String[] args) {
 
 		String dateStr = "2023/05/21"; // Expected in "yyyy-MM-dd" format, but it's in "yyyy/MM/dd" format.
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd");
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
 		try {
 
