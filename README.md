@@ -61,9 +61,9 @@
 
 
 ## Day 10, 11: Exception handling
-- **Notes**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day10/README.md)
-- **Exception handling**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day10/ExceptionHandlingDemo.java)
-- **Exception handling 2**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day10/ExceptionHandlingDemo2.java)
+- **Notes**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day10/README.md)
+- **Exception handling**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day10/ExceptionHandlingDemo.java)
+- **Exception handling 2**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day10/ExceptionHandlingDemo2.java)
 
 ## Day 12, 13: Validation
 - **Notes**: [Link](https://github.com/suryaumapathy2812/programming-fundamentals-java/blob/main/src/day11/README.md)
