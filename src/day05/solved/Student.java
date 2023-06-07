@@ -1,4 +1,4 @@
-package day05;
+package day05.solved;
 
 public class Student {
     String name; // Field 1

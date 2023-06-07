@@ -21,6 +21,9 @@
 - **Notes**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day05/README.md)
 - **Book Class w/ object**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day05/BookDemo.java)
 - **Student Example**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day05/Student.java)
+<<<<<<< HEAD
+- **Bicycle Example**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day05/Bicycle.java)
+=======
 
 ## Day 6: String Utilities
 - **Notes**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day06/README.md)
@@ -97,3 +100,4 @@
 
 
 ## Day 20, 21: SonarCloud
+>>>>>>> origin/main
