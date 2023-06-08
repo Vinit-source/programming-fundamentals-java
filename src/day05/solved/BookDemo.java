@@ -1,4 +1,4 @@
-package day05;
+package day05.solved;
 
 public class BookDemo {
 
