@@ -21,5 +21,5 @@
 - **Notes**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day05/README.md)
 - **Book Class w/ object**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day05/BookDemo.java)
 - **Student Example**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day05/Student.java)
-- **Bicycle Example**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day05/Bicycle.java)
+- **Bicycle Example**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day05/solved/Bicycle.java)
 
