@@ -1,1 +1,0 @@
-1. How would you modify the program in practice problem 2. to find the second largest and second smallest values in the array?
