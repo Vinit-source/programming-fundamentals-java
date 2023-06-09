@@ -30,10 +30,3 @@
 - **String Compare**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day06/StringCompareDemo.java)
 - **Practice**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day06/practice.md)
 
-## Day 7: Conditional Statements
-- **Notes**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day07/README.md)
-- **Conditional Statement Demo - if**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day07/ConditionalStatementDemo.java)
-- **Conditional Statement Demo - if else**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day07/ConditionalStatementDemo2.java)
-- **Conditional Statement Demo - else if**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day07/ConditionalStatementDemo3.java)
-- **Conditional Statement Demo - switch**: [Link](https://github.com/Vinit-source/programming-fundamentals-java/blob/main/src/day07/ConditionalStatementDemo4.java)
-
