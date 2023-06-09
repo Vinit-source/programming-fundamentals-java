@@ -8,71 +8,53 @@ package day05.solved;
  *
  */
 public class Bicycle {
-	int speedOfBike = 0;		// this is an instance variable/attribute
-	int gear = 1;				// this is an instance variable/attribute
-	static int price = 15000;	// This is a static/class variable/attribute
+	int speed = 0;
+	int gear = 1;
 
-	void changeGear(int newValue) {	// this is an instance method
+	void changeGear(int newValue) {
 		gear = newValue;
 	}
 
-	void speedUp(int increment) {	// this is an instance method
-		speedOfBike = speedOfBike + increment;
+	void speedUp(int increment) {
+		speed = speed + increment;
 	}
 
-	void applyBrakes(int decrement) { // this is an instance method
-		speedOfBike = speedOfBike - decrement;
+	void applyBrakes(int decrement) {
+		speed = speed - decrement;
 	}
 
-	void printStates() {			// this is an instance method
-		System.out.println(this + " speed:" + speedOfBike + " gear:" + gear);
+	void printStates() {
+		System.out.println(" speed:" + speed + " gear:" + gear);
 	}
-	
-	static void printPrice() {		// this is an static/class method
-		System.out.println(price);
-	}
-	
-	public static void main (String [] args) {
-		// Create a new Bicycle object
-		Bicycle bike1 = new Bicycle();	// new instance/object created
-		
-		// Speed up by 10 
-		bike1.speedUp(10); 		// instance method called
-		
+	// Create a new Bicycle object
+
+	public static void main(String[] args) {
+
+		Bicycle bicycle1 = new Bicycle();
+
+		// Speed up by 10
+
+		bicycle1.speedUp(10);
+
 		// Show the current speed
-		System.out.println("After speedUp(10), current speed is:" + bike1.speedOfBike);	// instance attribute accessed
-		
+		System.out.println("after speedup(10), the current speed is :" + bicycle1.speed);
+
 		// Change gear to 3
-		bike1.changeGear(3); 	// instance method called
-		
-		// Show the current gear 
-		System.out.println("After changeGear(3), Current gear is: " + bike1.gear); // instance attribute accessed
-		
+		bicycle1.changeGear(3);
+
+		// Show the current gear
+		System.out.println("after change gear (03), the current gear is :" + bicycle1.gear);
+
 		// Speed up by 30
-		bike1.speedUp(30);		// instance method called
-		
-		// Apply Brake to reduce the speed by 20
-		bike1.applyBrakes(20);	// instance method called
-		
+		bicycle1.speedUp(30);
+		// Apply Brake to reduce the speed to 20
+		bicycle1.applyBrakes(20);
+
 		// Change gear to 2
-		bike1.changeGear(2);	// instance method called
-		
+		bicycle1.changeGear(2);
 		// Print the current state
-		bike1.printStates();	// instance method called
-		
+		bicycle1.printStates();
 
-
-		// Create a second object
-		Bicycle bike2 = new Bicycle();	// Second instance/object created
-		bike2.printStates();	// instance method called
-		
-
-
-		// Call a static method
-		Bicycle.printPrice();	// static/class method called
-		System.out.println(Bicycle.price);	// static/class attribute/variable accessed
-		System.out.println(bike1.gear);		// instance attribute accessed
-		
-		
 	}
+
 }
