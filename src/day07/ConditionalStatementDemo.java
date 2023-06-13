@@ -1,12 +1,4 @@
-/**
- * 
- */
-package day07.solved;
-
-/**
- * @author VinitGore
- *
- */
+package day07;
 
 public class ConditionalStatementDemo {
 

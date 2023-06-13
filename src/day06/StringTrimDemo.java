@@ -1,4 +1,4 @@
-package day06.solved;
+package day06;
 
 public class StringTrimDemo {
 
