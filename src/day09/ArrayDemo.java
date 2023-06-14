@@ -1,6 +1,6 @@
-package day09.solved;
+package day09;
 
-public class Integer_Array {
+public class ArrayDemo {
 	public static void main(String[] args) {
 		// Array with a length of 4
 		int[] marks = new int[5];

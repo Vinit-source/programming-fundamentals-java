@@ -17,6 +17,7 @@ public class CompileTimeExceptionDemo {
 			FileReader fileReader = new FileReader("example.txt"); // This line may throw a FileNotFoundException
 		} catch (FileNotFoundException e) {
 			e.printStackTrace(); // Handle the exception by printing the stack trace
+			System.out.println("Please provide valid Filename.");
 		}
 	}
 }
