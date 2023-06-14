@@ -1,121 +1,68 @@
-### JUnit 5
+# Scanner
 
-#### Step 1: Add JUnit dependency in pom.xml
+The `java.util.Scanner` class is a simple text scanner which can parse primitive types and strings. It can be used to read from input streams like `System.in` (keyboard input), file streams, and so on.
 
-```xml
-
-  <properties>
-    <!-- Dependency versions -->
-    <junit.jupiter.version>5.5.2</junit.jupiter.version>
-    <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>    
-    <java.version>17</java.version>    
-  </properties>
-
-
-	<dependencies>
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter-engine</artifactId>
-			<version>${junit.jupiter.version}</version>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
-	
-	 <build>
-    <plugins>
-       <!-- plugin to run test cases from maven -->
-      <plugin>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>${maven-surefire-plugin.version}</version>
-      </plugin>
-      <!-- Maven plugin to use perticular java version to compile code -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version>
-        <configuration>
-          <source>17</source>
-          <target>17</target>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
-
-```
-
-##### Step 2: Business Logic Method
+Here's how you can create a `Scanner` object that reads from the keyboard:
 
 ```java
-package com.calculatorapp;
+import java.util.Scanner;
 
-public class Addition {
-
-	public static int add(int a, int b) {
-		return a+b;
-	}
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+    }
 }
+``` 
 
-```
+**Reading Different Types of Input**
 
-##### Step 3.1: Testing - Without using JUnit 
-```java
-package com.calculatorapp;
-
-public class AdditionTest {
-
-	public static void main(String[] args) {
-
-		int result1 = Addition.add(10, 20);
-		System.out.println("Result1 :: 10+20=" + result1);
-		
-		int result2 = Addition.add(0, 20);
-		System.out.println("Result2 :: 0+20=" + result2);
-		
-		int result3 = Addition.add(-1, 20);
-		System.out.println("Result3 :: -1+20=" + result3);
-		
-	}
-
-}
-
-```
-
-##### Step 3.2: Testing - Using JUnit5 test cases
+-   **Integer**: Use `nextInt()` method.
 
 ```java
-package com.calculatorapp;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import org.junit.jupiter.api.Test;
-
-public class AdditionTestUsingJUnit {
-
-	@Test
-	public void testCase1() {
-
-		int result1 = Addition.add(10, 20);
-		// System.out.println("Result1 :: 10+20=" + result1);
-		assertEquals(30, result1);
-	}
-
-	@Test
-	void testCase2() {
-
-		int result2 = Addition.add(0, 20);
-//		System.out.println("Result2 :: 0+20=" + result2);
-		assertEquals(20, result2);
-	}
-
-	@Test
-	void testCase3() {
-		int result3 = Addition.add(-1, 20);
-		// System.out.println("Result3 :: -1+20=" + result3);
-		assertEquals(19, result3);
-	}
-
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter an integer: ");
+        try {
+            int num = scanner.nextInt();
+            System.out.println("You entered: " + num);
+        } catch (Exception e) {
+            System.out.println("Invalid input. Please enter an integer.");
+        }
+    }
 }
+``` 
 
-```
+-   **Double**: Use `nextDouble()` method.
 
-* ![image](https://github.com/suryaumapathy2812/programming-fundamentals-java/assets/32648210/bfbc4aa7-6c63-417c-921d-ec10c44b8be3)
+```java
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a double: ");
+        try {
+            double num = scanner.nextDouble();
+            System.out.println("You entered: " + num);
+        } catch (Exception e) {
+            System.out.println("Invalid input. Please enter a double.");
+        }
+    }
+}
+``` 
+
+-   **String**: Use `nextLine()` method.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String str = scanner.nextLine();
+        System.out.println("You entered: " + str);
+    }
+}
+``` 
+
+In these examples, the `Scanner` object reads input from the keyboard. If the input is not of the expected type (e.g., the user enters a string when an integer is expected), the `nextInt()` and `nextDouble()` methods throw an `InputMismatchException`, which we catch and handle by printing an error message.
+
+Remember to always close the `Scanner` object after use to prevent resource leaks, by calling `scanner.close()`

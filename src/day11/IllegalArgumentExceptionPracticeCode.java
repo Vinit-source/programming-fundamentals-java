@@ -1,3 +1,5 @@
+package day10.solved;
+
 class UserAccount {
 
 	public static void validateUsername(String username) throws IllegalArgumentException {

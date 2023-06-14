@@ -1,4 +1,12 @@
-package day11;
+/**
+ * 
+ */
+package day123;
+
+/**
+ * @author VinitGore
+ *
+ */
 
 import java.util.regex.Pattern;
 
@@ -7,7 +15,7 @@ public class EmailValidationDemo {
 	public static void main(String[] args) {
 
 		String email = "surya.umapathy@freshworks.com";
-		String regex = "^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$";
+		String regex = "^.*@.*\\..*$";
 
 		Boolean isMatch = Pattern.matches(regex, email);
 

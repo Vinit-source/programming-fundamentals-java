@@ -1,89 +1,75 @@
-### Maven Examples
+# Java Utilities
 
-#### Step 1: Create Maven Project
+**1. Date and Time**
 
-* Choose File -> Maven Project
-* ![image](https://github.com/suryaumapathy2812/programming-fundamentals-java/assets/32648210/994e2ee8-c135-43f5-a532-face073c0ca0) 
+Java provides several classes to work with dates and times, such as `Date`, `LocalDate`, and `LocalDateTime` in the `java.time` package.
 
-* Select - Create a Simple Project ( for Core Java Projects )
-* ![image](https://github.com/suryaumapathy2812/programming-fundamentals-java/assets/32648210/925aacc9-3545-4568-9206-613b59b0e7dc)
+-   **Date**: This class represents a specific instant in time, with millisecond precision.
 
-* Enter groupId and artifactId
-* ![image](https://github.com/suryaumapathy2812/programming-fundamentals-java/assets/32648210/2ad4a606-7427-4248-a459-d6964f2466f3)
+```java
+import java.util.Date;
 
-* Generated Project Structure
-* ![image](https://github.com/suryaumapathy2812/programming-fundamentals-java/assets/32648210/a65493be-1c34-45d8-928b-e4edd2129d0d)
+public class Main {
+    public static void main(String[] args) {
+        Date date = new Date();
+        System.out.println(date.toString());
+    }
+}
+``` 
+
+-   **LocalDate**: This class represents a date (year, month, day) in the ISO calendar and can be used to store dates without time.
+
+```java
+import java.time.LocalDate;
+
+public class Main {
+    public static void main(String[] args) {
+        LocalDate date = LocalDate.now();
+        System.out.println(date.toString());
+    }
+}
+``` 
+
+-   **LocalDateTime**: This class represents both date and time (year, month, day, hour, minute, second) without a time zone.
 
 
-* pom.xml
-```xml
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>in.suryaumapathy</groupId>
-	<artifactId>calculator-app</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-</project>
+```java
+import java.time.LocalDateTime;
 
+public class Main {
+    public static void main(String[] args) {
+        LocalDateTime dateTime = LocalDateTime.now();
+        System.out.println(dateTime.toString());
+    }
+}
+``` 
+
+**2. StringBuffer and StringBuilder**
+
+`StringBuffer` and `StringBuilder` are used for creating mutable (modifiable) strings. The `StringBuilder` class is faster than `StringBuffer` because it's not thread-safe.
+
+-   **StringBuffer**:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        StringBuffer buffer = new StringBuffer("Hello");
+        buffer.append(" World");
+        System.out.println(buffer.toString());
+    }
+}
+``` 
+
+-   **StringBuilder**:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        StringBuilder builder = new StringBuilder("Hello");
+        builder.append(" World");
+        System.out.println(builder.toString());
+    }
+}
 ```
-* Note: Default Version: 0.0.1-SNAPSHOT
 
-##### Step 2: Set the Java Compiler Version
-
-* Add properties tag and specificy Java Compiler version for source and target
-* pom.xml
-
-```xml
-<project ....>
-  ...
-	<properties>
-		<maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>		
-	</properties>
-  
-  ...
-</project>
-```
-
-##### Step 3: Add Dependencies ( e.g: MySQL JDBC jar )
-* If we want to add jars to classpath, add jar in the dependencies section.
-
-* *Maven Remote Repository:*
- * https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.33
-
-```xml
-	<dependencies>
-    
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.33</version>
-		</dependency>
-    
-    ....
-	</dependencies>
-```
-
-##### Step 4: Change Version
-* Snapshot refers in development
-* Version Number Format: Major.Minor.Patch 
-```xml
-<version>8.0.33</version>
-```
-
-##### Step 5: Maven Goals
-* mvn clean => deletes target folder and deletes class files
-* mvn compile => compiles source code
-* mvn test => Run the JUnit test cases
-* mvn package => Package the application in Jar
-* mvn install => install the jar in Maven Local Repository
-
-Note: We can combile maven goals
-* mvn clean package
-
-
-###### Step 6: Package Jar and skip Tests
-* mvn clean package -DskipTests
-
-
+In both examples, we create a mutable string with the text "Hello" and then append " World" to it. The advantage of `StringBuffer` and `StringBuilder` over `String` is that they can be modified without creating a new object, which is more efficient.

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package day10.solved;
+package day10;
 
 import java.util.Scanner;
 

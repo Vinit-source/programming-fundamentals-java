@@ -1,4 +1,4 @@
-package day10.solved;
+package day10;
 
 public class ExceptionHandlingDemo {
 
