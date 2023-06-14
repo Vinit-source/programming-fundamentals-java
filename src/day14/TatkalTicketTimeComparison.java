@@ -1,12 +1,12 @@
 /**
  * 
  */
-package day12;
+package day14;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class DateDemo5 {
+public class TatkalTicketTimeComparison {
 
 	public static void main(String[] args) throws Exception {
 		LocalDate currentDate = LocalDate.now();

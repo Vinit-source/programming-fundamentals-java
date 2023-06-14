@@ -1,10 +1,10 @@
-package day123;
+package day12;
 
 public class StringValidationDemo {
 
 	public static void main(String[] args) {
 
-		String input = "Surya";
+		String input = "John";
 
 		if (input == null) {
 			System.out.println("The input String is Null");

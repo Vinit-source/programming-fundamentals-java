@@ -1,11 +1,11 @@
-package day12;
+package day14;
 
 public class StringBufferDemo {
 
 	public static void main(String[] args) {
 
-		String firstName = "Surya";
-		String lastName = "Umapathy";
+		String firstName = "John";
+		String lastName = "Doe";
 
 		StringBuilder fullName = new StringBuilder();
 		fullName.append(firstName);

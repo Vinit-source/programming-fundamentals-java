@@ -1,4 +1,4 @@
-package day123;
+package day12;
 
 public class NumberValidationDemo {
 

@@ -1,4 +1,4 @@
-package day12;
+package day14;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -17,7 +17,6 @@ public class DateDemo3 {
 		LocalDate parsedDate = LocalDate.parse(dateString, formatter);
 		System.out.println(parsedDate);
 		System.out.println(parsedDate.getYear());
-		System.out.println(parsedDate.getMonth());
 		System.out.println(parsedDate.getMonthValue());
 		System.out.println(parsedDate.getDayOfMonth());
 		

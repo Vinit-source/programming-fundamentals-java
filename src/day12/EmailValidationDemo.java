@@ -1,7 +1,7 @@
 /**
  * 
  */
-package day123;
+package day12;
 
 /**
  * @author VinitGore

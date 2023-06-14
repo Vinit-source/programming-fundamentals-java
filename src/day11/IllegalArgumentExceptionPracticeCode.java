@@ -1,4 +1,4 @@
-package day10.solved;
+package day11;
 
 class UserAccount {
 
