@@ -1,4 +1,4 @@
-package day10;
+package day10.solved;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

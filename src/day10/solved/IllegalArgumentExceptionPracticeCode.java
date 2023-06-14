@@ -1,7 +1,7 @@
 /**
  * 
  */
-package day10;
+package day10.solved;
 
 /**
  * @author VinitGore
