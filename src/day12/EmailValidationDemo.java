@@ -3,18 +3,13 @@
  */
 package day12;
 
-/**
- * @author VinitGore
- *
- */
-
 import java.util.regex.Pattern;
 
 public class EmailValidationDemo {
 
 	public static void main(String[] args) {
 
-		String email = "surya.umapathy@freshworks.com";
+		String email = "john.doe@freshworks.com";
 		String regex = "^.*@.*\\..*$";
 
 		Boolean isMatch = Pattern.matches(regex, email);
