@@ -9,7 +9,7 @@ public class CompileTimeExceptionDemo2 {
 		// TODO Auto-generated method stub
 		CompileTimeExceptionDemo2 f = new CompileTimeExceptionDemo2();
 		try {
-			f.filenotfound();
+			f.readFile();
 		} catch (FileNotFoundException e) {
 			System.out.println("File not exists");
 //			e.printStackTrace(); // Handle the exception by printing the stack trace
@@ -17,18 +17,7 @@ public class CompileTimeExceptionDemo2 {
 
 	}
 
-	public void filenotfound() throws FileNotFoundException {
-		try {
-			FileReader fileReader = new FileReader("example.txt"); // This line loads a file on computer to read in Java. This line may throw a FileNotFoundException
-			System.out.println("Line 23");
-
-		} catch (FileNotFoundException e) {
-			System.out.println("line 26");
-			throw new FileNotFoundException("Thrown exception");
-			// e.printStackTrace(); // Handle the exception by printing the stack trace
-		}
-		System.out.println("END");
-
+	public void readFile() throws FileNotFoundException {
+		FileReader fileReader = new FileReader("example.txt"); // This line may throw a FileNotFoundException
 	}
-
 }
