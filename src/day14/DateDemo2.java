@@ -1,7 +1,7 @@
 package day14;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
+import java.time.LocalDate;	// https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html#field.detail
+import java.time.format.DateTimeFormatter;	// https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#field.summary
 
 public class DateDemo2 {
 
