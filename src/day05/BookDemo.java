@@ -6,7 +6,10 @@ public class BookDemo {
 		
 		BookDemo newBook = new BookDemo();
 		System.out.println(newBook);
-		newBook.display();
+		newBook.display();		// BookDemo display 
+		
+		BookDemoWithoutPublic obj = new BookDemoWithoutPublic();
+		obj.display();			// BookDemoWithoutPublic display
 
 	}
 	
