@@ -56,10 +56,15 @@ public class User {
 
 	public void setPassword(String password) {
 		this.password = password;
+		
+	}
+	
+	public boolean validatePassword() {
+		boolean match = false;
 		try {
 //			String pattern_string = "(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{8,}";
 			String pattern_string = "(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@#$%^&+=])(?=.*[^\\s]).{8,}$";
-			boolean match = Pattern.matches(pattern_string, password);
+			match = Pattern.matches(pattern_string, password);
 //			boolean match = pattern.matches(password);
 //			Pattern pattern = Pattern.compile(pattern_string);
 //			Matcher m = pattern.matcher(password);
@@ -73,6 +78,8 @@ public class User {
 		} catch (PatternSyntaxException e) {
 			System.out.println(e.getMessage());
 		}
+		
+		return match;
 	}
 
 	public String getEmail() {
